@@ -23,7 +23,8 @@ int main(int argc, char* argv[])
 	HANDLE hSndThread, hRcvThread;
 	msgToken.reserve(MAX_TOKEN_NUM);
 
-	if (argc != 4){
+	if (argc != 4)
+	{
 		printf("Usage : %s <IP> <port> <name>\n", argv[0]);
 		exit(1);
 	}
